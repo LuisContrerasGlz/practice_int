@@ -15,5 +15,6 @@ setdefault()	Returns the value of the specified key. If the key does not exist: 
 update()	    Updates the dictionary with the specified key-value pairs
 values()	    Returns a list of all the values in the dictionary
 
+You want to use dictionaries when you plan on searching for a specific element.
 
 """
