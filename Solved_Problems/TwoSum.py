@@ -1,6 +1,13 @@
+"""
 
+Look through nums and find 2 values that add up to equal the tarjet value
+Return their indices
+
+"""
 
 # Using O(n2) with 2 for loops
+
+
 def twoSum(nums, target):
     for i in range(len(nums)):
         for j in range(len(nums)):
