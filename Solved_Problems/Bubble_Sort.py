@@ -1,3 +1,5 @@
+# Bubble sort has a complexity of O(n**2)
+
 def bubble_sort_while(arr):
     # Indexing for the len -1 because we cant compare the last one since there is nothing after
     indexing_length = len(arr) - 1
