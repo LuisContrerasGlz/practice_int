@@ -27,10 +27,16 @@ After the loop, if "seqIdx" is equal to the length of the "sequence", it means w
 
 
 def isValidSubsequence(array, sequence):
+    # We keep track of the position of the sequence with the variable seqIdx
     seqIdx = 0
+    # We traverse the array in this for loop
     for value in array:
+        # If the len of the sequence is equal to the value of seqIdx which will be increased each time there is a match equals the len of the sequence
+        # That means we found all the values in the sequence contained in the array in the same order so we break
         if seqIdx == len(sequence):
             break
+        # If the value at the position of sequence is in the current value of the array we increase the value of seqIdx by 1 so we move on to the next value in the sequence
         if sequence[seqIdx] == value:
             seqIdx += 1
+    # Then we just return True or False depending if the positions were completed and equals to the sequence, meaning that all the elements in the sequence were in the array in that order
     return seqIdx == len(sequence)
