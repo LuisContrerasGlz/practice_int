@@ -11,6 +11,19 @@ A subsequence of an array is a set of numbers that aren't necessarily adjacent
 """
 
 # Time = O(N) Space = O(1)
+"""
+
+Initialize a variable "seqIdx" to 0 to keep track of the current position in the "sequence".
+
+Loop through each value in the "array".
+
+If the "seqIdx" is equal to the length of the "sequence", it means we have found all the elements of the sequence, so the loop breaks.
+
+If the current value in the "array" is equal to the value at the current position in the "sequence", we increment the "seqIdx" by 1 to move to the next position in the "sequence".
+
+After the loop, if "seqIdx" is equal to the length of the "sequence", it means we have found all the elements of the sequence in the "array", and the function returns True. If not, it returns False.
+
+"""
 
 
 def isValidSubsequence(array, sequence):
