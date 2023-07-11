@@ -17,7 +17,6 @@ print(sorted_list)
 """
 Both methods will sort the list in ascending order. 
 If you want to sort the list in descending order, you can pass the reverse=True argument to either sort() or sorted() functions. 
-
 """
 
 my_list = [3, 1, 4, 2, 5]

@@ -10,7 +10,8 @@ print(smallest_number)
 # Without function
 
 def find_smallest_number(lst):
-    smallest = float('inf')  # Initialize with positive infinity
+    # Initialize with positive infinity
+    smallest = float('inf')  
 
     for num in lst:
         if num < smallest:

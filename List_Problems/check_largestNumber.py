@@ -9,7 +9,8 @@ print(largest_number)
 # Without function
 
 def find_largest_number(lst):
-    largest = float('-inf')  # Initialize with negative infinity
+    # Initialize with negative infinity
+    largest = float('-inf')  
 
     for num in lst:
         if num > largest:
