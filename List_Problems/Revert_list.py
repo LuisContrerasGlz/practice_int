@@ -6,19 +6,19 @@ my_list = [1, 2, 3, 4, 5]
 reversed_list = my_list[::-1]
 print(reversed_list)
 
-# With Loop
+# With Loop, reverse the elements of a list in-place without using additional memory, two-pointer technique to swap the elements at the beginning and end of the list iteratively.
 
-def reverse_list(lst):
-    left = 0
-    right = len(lst) - 1
+def reverse_list_in_place(lst):
+    start = 0
+    end = len(lst) - 1
 
-    while left < right:
-        lst[left], lst[right] = lst[right], lst[left]
-        left += 1
-        right -= 1
+    while start < end:
+        lst[start], lst[end] = lst[end], lst[start]
+        start += 1
+        end -= 1
 
-    return lst
-
+# Example usage
 my_list = [1, 2, 3, 4, 5]
-reversed_list = reverse_list(my_list)
-print(reversed_list)
+reverse_list_in_place(my_list)
+print(my_list)  # Output: [5, 4, 3, 2, 1]
+
