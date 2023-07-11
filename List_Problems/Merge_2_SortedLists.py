@@ -1,6 +1,7 @@
 # Given two sorted lists, merge them into a single sorted list.
 
 # Use the merge() function from the heapq module.
+
 """
 heapq.merge() takes 2 sorted lists as input and returns an iterator that produces items from both lists in sorted order. 
 By converting the iterator to a list using list(), we obtain the merged sorted list.
@@ -18,6 +19,7 @@ merged_list = merge_sorted_lists(list1, list2)
 print(merged_list)  # Output: [1, 2, 3, 4, 5, 6, 7, 8]
 
 # Implementing a custom merging algorithm:
+
 """
 we iterate through both lists using two pointers (i and j). 
 At each iteration, we compare the current elements from both lists and append the smaller one to the merged_list. 
