@@ -17,9 +17,10 @@ def maxValNumOfOccurrences(nums):
         # If the current 'value' is equal to the current 'max_value'.
         elif value == max_value:
             # Increment 'count' by 1 since we encountered another occurrence of the 'max_value'.
+            count += 1
+
     # After iterating through the entire list, return the 'max_value' and its occurrence 'count' as a list.
     return [max_value, count]
-
 
 
 print(maxValNumOfOccurrences([2, 7, 11, 8, 11, 8, 3, 11]))
