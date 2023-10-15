@@ -1,1 +1,1 @@
-# Find the highest sub string length in given string without repeating characters. Str = "abhedabaik"
+# Find the highest sub string in given string without repeating characters. Str = "abhedabaik"
