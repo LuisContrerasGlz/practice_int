@@ -13,7 +13,7 @@ def cero_to_the_right(array):
     num_zeros_ignored = len(array) - len(ceroTR)
 
     # Agrega los ceros faltantes al final de la nueva lista
-    for _ in range(num_zeros_ignored):
+    for i in range(num_zeros_ignored):
         ceroTR.append(0)
 
     # Retorna la lista modificada
@@ -32,7 +32,7 @@ def cero_to_the_left(array):
     num_zeros_ignored = len(array) - len(ceroTL)
 
     # Agrega los ceros al principio de la nueva lista
-    for _ in range(num_zeros_ignored):
+    for i in range(num_zeros_ignored):
         ceroTL.insert(0, 0)
 
     # Retorna la lista modificada
