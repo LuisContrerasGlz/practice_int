@@ -50,7 +50,7 @@ def find_longest_unique_substring(input_string):
     # Devolvemos la subcadena más larga con caracteres únicos encontrada
     return longest_substring
 
-# Ejemplo de uso
+
 input_string = "abcaabcde"
 result = find_longest_unique_substring(input_string)
 print(result)  # Debe imprimir "abcde"

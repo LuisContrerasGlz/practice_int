@@ -12,7 +12,7 @@ def is_palindrome(input_string):
         print("Not palindrome")
         return False
 
-# Example usage:
+
 input_str = "A man a plan a canal Panama"
 result = is_palindrome(input_str)
 
