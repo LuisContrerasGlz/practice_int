@@ -29,3 +29,12 @@ If the current element is not in palabras_unicas, it appends the element to the 
 As a result, the total time complexity is O(n) for the outer loop multiplied by O(n) for the inner loop, which results in O(n^2). This quadratic time complexity makes the code less efficient, especially for large input arrays. 
 
 """
+
+# Sorted
+
+
+def remove_duplicates2(string):
+    return "".join(sorted(set(string), key=string.index))
+
+
+print(remove_duplicates2("hello world dude"))
