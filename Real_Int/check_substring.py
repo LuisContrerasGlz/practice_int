@@ -54,3 +54,23 @@ def find_longest_unique_substring(input_string):
 input_string = "abcaabcde"
 result = find_longest_unique_substring(input_string)
 print(result)  # Debe imprimir "abcde"
+
+
+"""
+
+The time complexity of the provided code is O(n), where 'n' is the length of the input string input_string.
+
+Here's the breakdown:
+
+The code uses a for loop to iterate over each character in the input string. This loop contributes O(n) time complexity.
+
+Inside the loop, it checks if the current character is in the current_substring. Checking whether a character is in a string can be done in O(m) time, where 'm' is the length of the string being checked. In the worst case, 'm' is the length of the current_substring, but because each character is checked at most once, the total time spent on these checks across all iterations of the loop is still O(n).
+
+The code also compares the length of the current_substring with the length of the longest_substring and updates longest_substring when needed. These operations are performed in constant time, O(1), within the loop.
+
+Finally, the code checks once more at the end to ensure that the current_substring is the longest. This check runs in constant time, O(1).
+
+As a result, the total time complexity is O(n), making the code efficient for finding the longest substring with unique characters in the input string.
+
+
+"""
