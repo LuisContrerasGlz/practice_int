@@ -17,3 +17,16 @@ for i in range(1,101):
     else:
         print(i)
 
+"""
+
+The time complexity, or Big O notation, of the provided "FizzBuzz" solution is O(n), where "n" is the range of numbers from 1 to 100 (inclusive). In this case, "n" is 100.
+
+Here's why the solution has a linear time complexity of O(n):
+
+The code iterates through all the numbers from 1 to 100 exactly once using a loop (for i in range(1, 101)).
+For each number, there are a constant number of operations performed to check if it's a multiple of 3, a multiple of 5, or both. These operations are constant time, so they don't significantly affect the overall time complexity.
+Since the number of iterations in the loop is directly proportional to the input range (100 in this case), the time complexity is linear, O(n).
+
+In summary, this "FizzBuzz" solution is an efficient and straightforward algorithm with a time complexity of O(n), making it suitable for the given problem.
+
+"""
