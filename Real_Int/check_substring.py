@@ -31,17 +31,17 @@ def find_longest_unique_substring(input_string):
     longest_substring = ""  # Subcadena más larga encontrada hasta el momento
 
     # Iteramos a través de la cadena de entrada
-    for i in range(len(input_string)):
+    for i in input_string:
         # Comprobamos si el carácter actual ya está en la subcadena actual
-        if (input_string[i] in current_substring):
+        if i in current_substring:
             # Si el carácter está duplicado, comparamos longitudes y actualizamos si es necesario
             if (len(current_substring) > len(longest_substring)):
                 longest_substring = current_substring
             # Restablecemos la subcadena actual para comenzar una nueva
-            current_substring = input_string[i]
+            current_substring = i
         else:
             # Si el carácter es único, lo agregamos a la subcadena actual
-            current_substring = current_substring + input_string[i]
+            current_substring = current_substring + i
     
     # Comprobamos una vez más al final para asegurarnos de que la última subcadena sea la más larga si es el caso
     if (len(current_substring) > len(longest_substring)):
