@@ -1,0 +1,14 @@
+list of common assertions used in Selenium with Pytho:
+
+1. assertEqual: Compares two values and checks if they are equal.
+2. assertTrue: Verifies if a condition is true.
+3. assertFalse: Verifies if a condition is false.
+4. assertIsNone: Checks if a value is None.
+5. assertIsNotNone: Verifies if a value is not None.
+6. assertIn: Checks if a value is present in a specified iterable.
+7. assertNotIn: Verifies if a value is not present in a specified iterable.
+8. assertAlmostEqual: Compares floating-point values to a specified level of precision.
+9. assertNotAlmostEqual: Verifies that floating-point values are not approximately equal.
+10. assertRaises: Checks if a specified exception is raised.
+
+These assertions are commonly used in test scripts that involve Selenium with Python. 

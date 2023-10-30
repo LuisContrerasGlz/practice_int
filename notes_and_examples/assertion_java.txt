@@ -1,0 +1,13 @@
+list of common assertions in Selenium with Java:
+
+1. assertEquals: Compares two values and checks if they are equal.
+2. assertTrue: Verifies if a condition is true.
+3. assertFalse: Verifies if a condition is false.
+4. assertNotNull: Checks if a value is not null.
+5. assertNull: Verifies if a value is null.
+6. assertArrayEquals: Compares two arrays to verify their equality.
+7. assertNotEquals: Checks if two values are not equal.
+8. assertSame: Verifies if two objects reference the same object in memory.
+9. assertNotSame: Checks if two objects reference different objects in memory.
+10. assertThat (Hamcrest Matchers): Provides more extensive and flexible assertions using Hamcrest matchers.
+
