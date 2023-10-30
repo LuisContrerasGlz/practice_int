@@ -1,0 +1,45 @@
+TestNG annotations: 
+
+Class-Level Annotations:
+    @BeforeSuite: Denotes that the annotated method will run before the Test Suite starts.
+
+    @AfterSuite: Denotes that the annotated method will run after the Test Suite ends.
+
+    @BeforeTest: Denotes that the annotated method will run before any test method belonging to the <test> tag in the XML file.
+
+    @AfterTest: Denotes that the annotated method will run after all the test methods belonging to the <test> tag in the XML file.
+
+    @BeforeClass: Denotes that the annotated method will run before the first test method in the current class is invoked.
+
+    @AfterClass: Denotes that the annotated method will run after all the test methods in the current class have been run.
+
+Method-Level Annotations:
+    @Test: Denotes a test method. This is where you put your test logic.
+
+    @BeforeMethod: Denotes that the annotated method will run before each test method.
+
+    @AfterMethod: Denotes that the annotated method will run after each test method.
+
+    @DataProvider: Denotes that the annotated method supplies data for a test method.
+
+    @Parameters: Denotes that these parameters will be injected into the test class instance before running the methods.
+
+    @Parameters({"parameter_name"}): Specifies the name of the parameter that will be used from the testng.xml file.
+
+    @Factory: Denotes that the annotated method is a factory that returns objects used by TestNG as Test classes.
+
+    @Listeners: Defines test listeners for the test class.
+
+
+Configuration Annotations:
+
+    @BeforeGroups: Denotes that the annotated method runs before the first test method that belongs to the specified group.
+
+    @AfterGroups: Denotes that the annotated method runs after the last test method that belongs to the specified group.
+
+    @BeforeSuite, @BeforeTest, @BeforeClass, @BeforeGroups, @BeforeMethod: These annotations are used to perform setup operations.
+
+    @AfterSuite, @AfterTest, @AfterClass, @AfterGroups, @AfterMethod: These annotations are used to perform teardown operations.
+
+TestNG annotations play a crucial role in defining the test flow, setup, and teardown operations, and other configurations, 
+offering a flexible way to manage the test suite execution.
