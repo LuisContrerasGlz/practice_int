@@ -12,3 +12,19 @@ list of common assertions used in Selenium with Pytho:
 10. assertRaises: Checks if a specified exception is raised.
 
 These assertions are commonly used in test scripts that involve Selenium with Python. 
+
+Difference bewtween assert and verify
+
+Assert:
+
+Assert means "make sure." When you use assert in a test, you're saying, "I'm sure this thing is correct, and if it's not, then stop right here." It's like saying, "If my expectation is wrong, something is seriously not right, and we need to investigate immediately."
+
+If the assertion fails, the test immediately stops. It's like hitting a red emergency stop button in a factory if something goes wrong. You can't continue the process because things are not how you expected.
+
+Verify:
+
+Verify means "check and keep going." When you use verify in a test, you're saying, "I'm checking if this thing is correct, and if it's not, that's not great, but let's keep going and see what else might be wrong."
+
+If the verification fails, it's like finding a small issue in a big process. You note it down, but you don't immediately stop the entire operation. It helps in collecting more information about what might be going wrong without immediately stopping everything.
+
+In short, "assert" stops the entire test if something unexpected happens, while "verify" keeps the test going and notes down what's wrong to help in understanding the issue better.
