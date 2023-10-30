@@ -1,0 +1,24 @@
+
+NoSuchElementException: This occurs when the WebDriver is unable to locate a web element. 
+                        It typically arises when trying to find an element using a locator that is not present on the page.
+
+ElementNotVisibleException: Thrown when an element is present on the DOM but is not visible or not interactable.
+
+ElementNotInteractableException: Raised when an element is found but is present in the DOM and may be visible, yet not in a state where a user can interact with it.
+
+StaleElementReferenceException: Occurs when the referenced web element is no longer present in the DOM or has become stale. 
+                                This often happens when the element is modified or refreshed dynamically.
+
+TimeoutException: Arises when a command takes longer than the maximum time allotted for its execution. 
+                  It's commonly seen with implicit or explicit waits.
+
+NoSuchWindowException: Occurs when the WebDriver attempts to operate on a window that is not available or closed.
+
+NoSuchFrameException: Happens when the WebDriver attempts to switch to a frame that doesn't exist.
+
+SessionNotCreatedException: This exception is thrown when a new session cannot be successfully created, generally due to issues with the WebDriver instance.
+
+InvalidElementStateException: This occurs when an element is found but is in an invalid state 
+                              (e.g., when trying to interact with a disabled input field).
+
+UnreachableBrowserException: This is raised when the browser that the test is trying to communicate with has become unresponsive or cannot be reached.
