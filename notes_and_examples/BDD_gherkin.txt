@@ -1,0 +1,28 @@
+Given this preconditions, 
+When the user performs this action, 
+Then the result is this
+
+Given=Preconditions
+When=Actions
+Then=Results/asserts
+
+All extensions for Gherkin are .feature 
+
+Gherkin specifications are typically written in plain text and follow a specific syntax. Some key elements of the Gherkin language include:
+
+    Feature: A Gherkin file typically starts with a "Feature" section, which describes a high-level feature or functionality of the software.
+
+    Scenario: Under the "Feature" section, one or more "Scenarios" are defined. 
+    
+              Each scenario represents a specific test case and describes a particular behavior or condition of the software.
+
+    Given-When-Then: Scenarios are structured using the "Given-When-Then" format, which outlines the context, action, and expected outcome of the scenario. For example:
+
+        "Given" represents the initial state or context.
+        "When" describes the action or event.
+        "Then" specifies the expected outcome.
+
+    Background: A "Background" section can be used to define common steps that are shared across multiple scenarios, reducing duplication.
+
+    Examples: The "Examples" section can be used for data-driven testing, providing different sets of input data for a scenario to be tested with.
+
