@@ -1,0 +1,34 @@
+To manage multiple windows:
+
+    driver.window_handles - Returns a list of handles for all currently open browser windows.
+
+    driver.current_window_handle - Returns the handle of the current browser window.
+
+To switch between windows:
+
+    driver.switch_to.window(window_name) - Switches the focus to the window specified by the window name or handle.
+
+    driver.switch_to.default_content() - Switches back to the default content, mainly used to switch out of iframes.
+
+    driver.switch_to.frame(frame_reference) - Switches the focus to a frame on the page.
+
+To interact with elements within a window:
+
+    Finding Elements: Use regular Selenium element locating methods like find_element or find_elements in combination with other commands. For example:
+
+    element = driver.find_element(By.ID, 'elementId') - Locates an element by its ID.
+    element.click() - Clicks on the located element.
+
+To perform actions within a window:
+
+    driver.close() - Closes the currently focused browser window.
+
+    driver.quit() - Closes all windows and ends the WebDriver session.
+
+Other useful methods for interactions:
+
+    element.send_keys("text") - Sends keys to the located element, such as entering text into an input field.
+
+    element.text - Retrieves the text of the located element.
+
+    element.get_attribute("attribute_name") - Gets the value of the specified attribute of the element.
