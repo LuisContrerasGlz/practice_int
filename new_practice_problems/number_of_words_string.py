@@ -1,1 +1,1 @@
-# count the number of words in given string.
+# Count the number of words in given string.
