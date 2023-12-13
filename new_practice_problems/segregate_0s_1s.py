@@ -1,0 +1,1 @@
+# program to segregate 0s and 1s in given array. Input = {1,0,1,1,0,1,1,0,0} Output = {0,0,0,0,1,1,1,1,1}
