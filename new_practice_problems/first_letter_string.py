@@ -1,0 +1,1 @@
+# Print first letter of each word present in string
