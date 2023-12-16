@@ -1,1 +1,1 @@
-# program to check if all elements in a List are unique.
+# Program to check if all elements in a List are unique.
