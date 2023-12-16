@@ -1,1 +1,1 @@
-# program to determine whether two strings are the anagram
+# Program to determine whether two strings are the anagram
