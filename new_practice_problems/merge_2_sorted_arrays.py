@@ -1,1 +1,1 @@
-# program to merge two sorted arrays
+# Program to merge two sorted arrays
