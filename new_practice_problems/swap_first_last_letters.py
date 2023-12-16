@@ -1,1 +1,1 @@
-# program to swap the first and last letter in a string.
+# Program to swap the first and last letter in a string.
