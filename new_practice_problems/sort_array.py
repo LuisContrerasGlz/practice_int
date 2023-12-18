@@ -1,1 +1,1 @@
-# program to sort an array
+# Program to sort an array
