@@ -1,1 +1,1 @@
-# program to find the factorial of the number.
+# Program to find the factorial of the number.
