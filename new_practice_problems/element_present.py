@@ -1,1 +1,1 @@
-# program to check if an element present in the array or not.
+# Program to check if an element present in the array or not.
