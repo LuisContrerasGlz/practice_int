@@ -20,6 +20,7 @@ Input String: "programming"
 Find the length of the string without using length() method:
 
 Result: 11
+
 Note:
 
 This approach provides an alternative way to determine the length of a string.

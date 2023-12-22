@@ -30,6 +30,7 @@ Input Array: [5, 3, 9, 1, 7, 2]
 Sort the array:
 
 Resulting Array: [1, 2, 3, 5, 7, 9]
+
 Note:
 
 The choice of sorting algorithm may depend on factors such as the size of the array, time complexity requirements, and stability.
