@@ -1,0 +1,1 @@
+# Write a function to move all [0,1,5,4,32,80,0,4,0,1] 0 from to left and another to right
