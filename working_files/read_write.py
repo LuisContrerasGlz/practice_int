@@ -38,3 +38,22 @@ with open("my_information.txt",'r',encoding='utf-8') as my_file:
     print(my_file.readlines())
 
 
+"""
+
+
+You can read the entire contents of the file at once using the read() method. 
+
+
+
+"""
+
+with open("my_information.txt", 'r', encoding='utf-8') as my_file:
+    content = my_file.read()
+    print(content)
+
+"""
+
+my_file.read(): This method reads the entire content of the file as a single string and stores it in the variable content.
+print(content): This line then prints the entire content of the file.
+
+"""
