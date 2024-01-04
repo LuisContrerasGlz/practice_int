@@ -9,8 +9,10 @@ Time complexity: O(log n) in the worst case, where 'n' is the number of elements
 """
 
 def binary_search(arr, target):
+
     low = 0, 
     high= len(arr) - 1
+    
     while low <= high:
         mid = (low + high) // 2
         if arr[mid] == target:
