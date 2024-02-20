@@ -8,6 +8,8 @@ filter(function, iterable)
 function: The function that tests each element of the iterable. It should return either True or False.
 iterable: The sequence (e.g., a list) to be filtered.
 
+So, in simple terms, filter() helps you create a new sequence with only the elements that satisfy a specific condition defined by a given function.
+
 """
 
 def add7(num):
