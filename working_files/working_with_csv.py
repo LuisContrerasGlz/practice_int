@@ -9,3 +9,15 @@ with open("working_files/names.csv", "r") as csv_file:
     for line in csv_reader:
         print(line)
 
+
+    # Reset the file pointer to the beginning of the file
+    csv_file.seek(0)
+
+    # Making a copy of the file in a new one
+        
+    with open("new_names.csv", "w") as new_file:
+        csv_writer = csv.writer(new_file)
+
+        for line in csv_reader:
+            csv_writer.writerow(line)
+
