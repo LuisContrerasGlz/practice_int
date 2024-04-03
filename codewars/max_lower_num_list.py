@@ -20,18 +20,22 @@ print("Lowest number:", lowest)
 
 def get_major_and_lowest_no_build_in(numbers2):
 
+    #  Check if the input list numbers2 is empty, if the list is empty, return None for both major and lowest
     if not numbers2:
         return None, None
     
+    # Initialize major_num and lowest_num with the first element of the list
     major_num = numbers2[0]
     lowest_num = numbers2[0]
 
+    # Iterate through each number in the list, Update major_num if the current number is greater than the current major_num and Update lowest_num if the current number is less than the current lowest_num
     for num in numbers2:
         if num > major_num:
             major_num = num
         elif num < lowest_num:
             lowest_num = num
 
+    # Return the major and lowest numbers found
     return major_num, lowest_num
 
 # Testing:
