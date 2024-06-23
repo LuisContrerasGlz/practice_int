@@ -19,6 +19,3 @@ print("------------")
 texto_prueba2 = "Hola esto es una prueba"
 texto_revertido2 = rever_str2(texto_prueba2)
 print(texto_revertido2)
-
-
-# SQL
