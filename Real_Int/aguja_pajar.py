@@ -8,11 +8,11 @@ Es un arreglo de palabras revueltas y en alguna posicion está la palabra "aguja
 
 def aguja(palabra,arreglo):
     if palabra in arreglo:
-        pos = arreglo.index(palabra)
+        posicion = arreglo.index(palabra)
     else:
         print("Palabra no encontrada")
-        pos = -1
-    return pos 
+        posicion = -1
+    return posicion 
 
 
 arreglo=['hola','adios','bye','hello','aguja','otro','some']
