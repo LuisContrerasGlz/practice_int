@@ -1,0 +1,1 @@
+# Print the smallest element in an array

@@ -1,0 +1,1 @@
+# Print the sum of all the items of the array 

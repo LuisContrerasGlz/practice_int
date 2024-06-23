@@ -1,0 +1,1 @@
+# Find Second Smallest Number 
