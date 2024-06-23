@@ -18,3 +18,19 @@ Regardless of the value of num_to_check, the code performs the same number of op
 Therefore, the time complexity is constant, and it's not dependent on the size or value of num_to_check.
 
 """
+
+# Adding extra validation
+
+def check_odd(num_to_check):
+    if not isinstance(num_to_check, (int, float)):
+        print("Input is not a number")
+        return
+    
+    if isinstance(num_to_check, float) and not num_to_check.is_integer():
+        print("Input is not an integer")
+        return
+
+    if num_to_check % 2 == 0:
+        print("Number is not Odd")
+    else:
+        print("Number is Odd")
