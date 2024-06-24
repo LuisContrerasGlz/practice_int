@@ -17,7 +17,6 @@ def reverse_list_in_place(lst):
         start += 1
         end -= 1
 
-# Example usage
 my_list = [1, 2, 3, 4, 5]
 reverse_list_in_place(my_list)
 print(my_list)  # Output: [5, 4, 3, 2, 1]
