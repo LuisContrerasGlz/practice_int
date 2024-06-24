@@ -29,6 +29,8 @@ from collections import Counter
 def find_frequencies(array):
     # Create a Counter object to count the frequency of each element in the array
     frequency_dict = Counter(array)
+    print("---------")
+    print(frequency_dict)
     
     # Iterate through the items of the Counter object
     for element, frequency in frequency_dict.items():
@@ -37,4 +39,6 @@ def find_frequencies(array):
 
 array = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
 find_frequencies(array)
+array2 = ["a", "b", "b", "b", "a", "c", "d", "d", "f", "a"]
+find_frequencies(array2)
 
