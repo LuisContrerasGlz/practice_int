@@ -11,3 +11,5 @@ def pyramid(tamaño_p):
         print(" " * (tamaño_p - i - 1) + "*" * (2 * i +1) )
 
 pyramid(5)
+pyramid(7)
+pyramid(10)
